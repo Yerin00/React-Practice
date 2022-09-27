@@ -15,7 +15,7 @@ import { Control, LocalForm, Errors } from 'react-redux-form';
         )
     }
 
-    function RenderComments({comments}) {
+    function RenderComments({comments, addComment, dishId}) {
         if (comments != null) {
             const commentList = comments.map((comment) => {
                 return (
@@ -26,12 +26,15 @@ import { Control, LocalForm, Errors } from 'react-redux-form';
                                     year: 'numeric', month: 'short', day: '2-digit'
                                 }).format(new Date(comment.date))}</li>
                     </ul>
+                    
                 );
             });
             return (
                 <div>
                     <h4>Comments</h4>
                     {commentList}
+                    <CommentForm dishId={dishId} addComment={addComment} />
+
                 </div>
             )
 
@@ -60,8 +63,8 @@ import { Control, LocalForm, Errors } from 'react-redux-form';
 
         handleSubmit(values) {
             this.toggleModal();
-            console.log("Current State is: " + JSON.stringify(values));
-            alert("Current State is: " + JSON.stringify(values));
+            this.props.addComment(this.props.dishId, values.rating, values.yourname, values.comment);
+            // alert("Current State is: " + JSON.stringify(values));
         }
 
         toggleModal() {
@@ -147,8 +150,11 @@ import { Control, LocalForm, Errors } from 'react-redux-form';
                             
                         </div>
                         <div className="col-12 col-md m-1">
-                            <RenderComments comments={props.comments} />
-                            <CommentForm />
+                            <RenderComments comments={props.comments}
+                                addComment={props.addComment}
+                                dishId={props.dish.id}
+                            />
+                            
                         </div>
                     </div>
                 </div>
