@@ -11,6 +11,8 @@ https://www.coursera.org/learn/front-end-react
 
 ![2.gif](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a11c7949-f1db-48d8-bb9e-2424887dc2fd/2.gif)
 
+![feedback.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c3f5b578-aed8-4196-a255-a903c209034e/feedback.png)
+
 ## 강의계획표
 ### Week 1
 Introduction to React
