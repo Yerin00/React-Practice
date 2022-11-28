@@ -7,11 +7,11 @@ https://www.coursera.org/learn/front-end-react
  이 코드는 강의를 듣고 작성한 코드입니다.
 
 ### 결과물
-![home.gif](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/dff386d0-0d60-4439-ace3-53351c167079/home.gif)
+![home](https://user-images.githubusercontent.com/57207126/204196801-65ab9c14-b494-44c3-a159-e73920fd1968.gif)
 
-![2.gif](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a11c7949-f1db-48d8-bb9e-2424887dc2fd/2.gif)
+![2](https://user-images.githubusercontent.com/57207126/204196817-ffbbc258-cd94-4f57-8f68-5378ccd95ed8.gif)
 
-![feedback.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c3f5b578-aed8-4196-a255-a903c209034e/feedback.png)
+![feedback](https://user-images.githubusercontent.com/57207126/204196825-10433f7d-a443-439e-83e2-3887dfb67f41.png)
 
 ## 강의계획표
 ### Week 1
